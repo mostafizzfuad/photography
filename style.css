@@ -348,6 +348,7 @@ header {
 /*--=============== about end ===============--*/
 
 
+
 /*--=============== gallery start ===============--*/
 #gallery {
     margin-top: 15rem;
@@ -384,3 +385,76 @@ header {
     filter: saturate(1) brightness(1);
 }
 /*--=============== gallery end ===============--*/
+
+
+
+/*--=============== collage start ===============--*/
+#collage {
+    margin-top: 15rem;
+}
+
+.collage-head {
+    text-align: right;
+}
+
+.collage-head h2 {
+    margin-bottom: 2rem;
+}
+
+.collage-head p {
+    padding-left: 50%;
+    margin-bottom: 3rem;
+}
+
+.collage-images {
+    display: grid;
+    grid-template-areas:
+        "c1 c2 c4"
+        "c5 c3 cv"
+        "ch ch cv"
+        "ch ch cv";
+    gap: 2rem;
+}
+
+.collage-image:nth-child(1) {
+    grid-area: c1;
+}
+
+.collage-image:nth-child(2) {
+    grid-area: c2;
+}
+
+.collage-image:nth-child(3) {
+    grid-area: c3;
+}
+
+.collage-image:nth-child(4) {
+    grid-area: c4;
+}
+
+.collage-image:nth-child(5) {
+    grid-area: c5;
+}
+
+.collage-image:nth-child(6) {
+    grid-area: ch;
+}
+
+.collage-image:nth-child(7) {
+    grid-area: cv;
+}
+
+.collage-image {
+    border: 1rem solid var(--color-bg-4);
+}
+
+.collage-image img {
+    height: 100%;
+    filter: saturate(0) brightness(0.5);
+    transition: var(--transition);
+}
+
+.collage-image:hover img {
+    filter: saturate(1) brightness(1);
+}
+/*--=============== collage end ===============--*/
