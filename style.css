@@ -458,3 +458,15 @@ header {
     filter: saturate(1) brightness(1);
 }
 /*--=============== collage end ===============--*/
+
+
+
+/*--=============== footer start ===============--*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+}
+/*--=============== footer end ===============--*/
