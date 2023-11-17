@@ -124,8 +124,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(var(--color-primary-variant),
-            var(--color-primary));
+    background-image: linear-gradient(
+        var(--color-primary-variant),
+        var(--color-primary)
+    );
     color: var(--color-bg-4);
     border-radius: 0.5rem;
     transition: var(--transition);
