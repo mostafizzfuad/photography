@@ -374,7 +374,7 @@ header {
 }
 
 .gallery-image {
-    width: 25rem;
+    /* width: 25rem; */
     border: 1rem solid var(--color-bg-4);
 }
 
